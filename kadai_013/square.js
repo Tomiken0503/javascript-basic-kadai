@@ -1,8 +1,7 @@
 const num = Math.floor(Math.random() * 11);
 
 const Square = (num) => {
-  result = num ** 2;
-  console.log(result);
+  return num ** 2;
 };
 
-Square(num);
+console.log(Square(num));
